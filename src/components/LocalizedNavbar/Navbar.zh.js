@@ -1,17 +1,17 @@
 const zhNavbar = {
   hideOnScroll: true,
-  title: "ChatGPT SC",
+  title: "ChatGPT 提示语",
   logo: {
     alt: "ChatGPT Shortcuts",
     src: "img/logo.svg",
   },
   items: [
     {
-      to: "https://newzone.top/posts/2023-02-27-chatgpt_shortcuts.html",
-      label: "ChatGPT Shortcut 原理说明",
+      to: "https://chat.bk8787.com",
+      label: "使用测试",
       position: "left",
     },
-    {
+    /* {
       type: 'dropdown',
       label: '其他工具',
       position: 'left',
@@ -53,7 +53,7 @@ const zhNavbar = {
       href: "https://discord.gg/PZTQfJ4GjX",
       position: "right",
       className: "header-discord-link",
-    },
+    }, */
   ],
 };
 

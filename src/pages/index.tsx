@@ -39,13 +39,13 @@ import styles from "./styles.module.css";
 
 const TITLE = translate({
   message:
-    "ChatGPT Shortcut - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
+    "Prompts ChatGPT - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
 });
 const DESCRIPTION = translate({
   message: "让生产力加倍的 ChatGPT 快捷指令",
 });
 const SUBMIT_URL =
-  "https://github.com/rockbenben/ChatGPT-Shortcut/discussions/11";
+  "https://chat.aidutu.cn";
 
 type UserState = {
   scrollTopPosition: number;
@@ -139,10 +139,10 @@ function useFilteredUsers() {
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">ChatGPT Shortcut</Heading>
+      <Heading as="h1">ChatGPT 提示语</Heading>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
-        <Translate id="showcase.header.button">🙏 请添加你的提示词</Translate>
+        <Translate id="showcase.header.button">🙏 去使用你的提示语</Translate>
       </Link>
     </section>
   );
